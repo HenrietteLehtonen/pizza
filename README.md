@@ -1,1 +1,3 @@
-# pizzeria_populo
+# 🍕 Pizzeria Populo 🍕
+
+![Pizzeria UI](/pics/palautus1-UI.png)
