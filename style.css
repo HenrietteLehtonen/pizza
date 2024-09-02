@@ -145,6 +145,8 @@ input:focus {
   outline: none;
 }
 input[type="submit"] {
+  width: 100px;
+  float: left;
   background-color: var(--green);
 }
 .close-btn {
