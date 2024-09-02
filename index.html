@@ -7,22 +7,76 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/2a4b915664.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Pizzeria Populo</title>
+    <script src="script.js" defer></script>
   </head>
   <body>
+    <!-- NAV START  -->
     <nav>
       <img class="logo" src="./pics/logo.png" alt="pizzeria populo logo" />
+      <p class="l-text">PIZZERIA POPULO</p>
       <ul class="top-menu">
         <li><a href="">HOME</a></li>
         <li><a href="">MENU</a></li>
         <li><a href="">CONTACT</a></li>
+        <span><i class="fa-solid fa-right-to-bracket sign"></i></span>
       </ul>
     </nav>
+    <!-- NAV END  -->
+
+    <!-- DIALOGI -->
+    <dialog>
+      <p>REKISTERÖIDY</p>
+      <!-- FORMI !   -->
+      <form method="dialog">
+        <div class="form">
+          <form action="/action_page.php">
+            <label for="nimi">Sukunimi:</label>
+            <input
+              type="text"
+              id="login-nimi"
+              name="nimi"
+              placeholder="Min. 3 kirjainta"
+              minlength="3"
+              maxlength="15"
+              required
+            />
+
+            <label for="sposti">Sähköposti:</label>
+            <input
+              type="email"
+              id="sposti-login"
+              name="sposti"
+              placeholder="@metropolia.fi"
+              required
+            />
+
+            <label for="salasana">Salasana:</label>
+            <input
+              type="password"
+              id="login-ss"
+              required
+              pattern="^(?=.*[A-Z])(?=.*\d.*\d)(?=.*[\W_])[A-Za-z\d\W_]{8,}$"
+            /><br />
+
+            <input id="submit-btn" type="submit" value="Lähetä" />
+            <button class="close-btn">Sulje</button>
+          </form>
+          <!--  FORM LOPPU   -->
+        </div>
+      </form>
+    </dialog>
+
     <main></main>
 
+    <!-- ABOUT US START  -->
     <div class="more">
       <img class="pizza" src="pics/pizza.png" alt="pizza" />
       <img class="basil" src="pics/basil.png" alt="basil" />
@@ -36,11 +90,15 @@
         quidem accusamus! Ea recusandae asperiores tempora ab accusantium qui
         distinctio voluptatibus dignissimos, eligendi, debitis ipsam nihil
         consequuntur sed ducimus molestiae. Placeat magni veritatis nihil dicta
-        inventore ea est ex voluptates fuga deserunt.
+        inventore ea est ex voluptates fuga deserunt.🍕&#127829;
       </p>
     </div>
+    <!-- ABOUT US END -->
+
+    <!--  FOOTER START  -->
     <footer>
       <p class="copyright">Copyright</p>
+      <p class="copyright">Henriette Lehtonen</p>
     </footer>
   </body>
 </html>
