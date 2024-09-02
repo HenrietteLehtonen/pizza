@@ -97,6 +97,8 @@ dialog {
 }
 dialog > p {
   font-size: 60px;
+  color: var(--black);
+  margin-bottom: 50px;
 }
 
 dialog::backdrop {
