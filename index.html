@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="dialog.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -19,16 +20,23 @@
   </head>
   <body>
     <!-- NAV START  -->
-    <nav>
+    <nav class="navbar">
       <img class="logo" src="pics/logo.png" alt="pizzeria populo logo" />
-      <p class="l-text">PIZZERIA POPULO</p>
+      <!-- <p class="l-text">PIZZERIA POPULO</p> -->
       <ul class="top-menu">
         <li><a href="">HOME</a></li>
         <li><a href="">MENU</a></li>
         <li><a href="">CONTACT</a></li>
         <span><i class="fa-solid fa-right-to-bracket sign"></i></span>
       </ul>
+      <button id="hamburgerBtn" class="hamburger">
+        <i class="fa-solid fa-bars" style="color: #ffffff"></i>
+      </button>
     </nav>
+
+    <section>
+      <header class="hero"></header>
+    </section>
     <!-- NAV END  -->
 
     <!-- DIALOGI -->
@@ -74,7 +82,17 @@
       </form>
     </dialog>
 
-    <main></main>
+    <!--
+    DIALOG END
+    -->
+
+    <!--
+    MAIN START 
+    -->
+
+    <main>
+      <div class="menu">tähän tulee menu tekstit</div>
+    </main>
 
     <!-- ABOUT US START  -->
     <div class="more">

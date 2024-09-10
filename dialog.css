@@ -1,0 +1,77 @@
+/* -------- DIALOGI --------------*/
+dialog {
+  margin: 50px auto;
+  padding: 50px 20px;
+  height: 600px;
+  width: 400px;
+  border-radius: 20px;
+  background-color: var(--white);
+  border: none;
+  box-shadow: 1px 1px 15px rgb(16, 16, 16);
+}
+dialog > p {
+  font-size: 60px;
+  color: var(--black);
+  margin-bottom: 50px;
+}
+
+dialog::backdrop {
+  backdrop-filter: blur(10px);
+}
+#placeh {
+  margin: 150px 10px;
+}
+
+/* FORMI */
+
+.form {
+  margin: 10px;
+}
+
+form input:required {
+  border-left: 5px solid;
+  border-left-color: var(--yellow);
+}
+
+form input:valid {
+  border-left-color: var(--green);
+}
+form input:invalid {
+  border-left-color: var(--red);
+}
+
+input {
+  margin: 5px 0px;
+  padding-left: 5px;
+  display: block;
+  width: 180px;
+  height: 30px;
+  border-radius: 5px;
+  border-style: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  color: var(--black);
+}
+
+::placeholder {
+  color: var(--green);
+}
+
+input:focus {
+  /*border: 3px solid var(--red);*/
+  outline: none;
+}
+input[type="submit"] {
+  width: 100px;
+  float: left;
+  background-color: var(--green);
+}
+.close-btn {
+  margin: 5px 0px 5px 10px;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  border-style: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  float: left;
+  background-color: var(--green);
+}
