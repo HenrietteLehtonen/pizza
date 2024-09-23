@@ -75,3 +75,13 @@ input[type="submit"] {
   float: left;
   background-color: var(--green);
 }
+
+@media only screen and (max-width: 450px) {
+  dialog {
+    height: fit-content;
+    min-width: 310px;
+  }
+  dialog > p {
+    font-size: 3em;
+  }
+}

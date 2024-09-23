@@ -1,5 +1,5 @@
 const dialog = document.querySelector("dialog");
-const showButton = document.querySelector("span>i");
+const showButton = document.querySelector(".sign");
 const closeButton = document.querySelector(".close-btn");
 const hamburgerBtn = document.querySelector("#hamburgerBtn");
 const nav = document.querySelector(".top-menu");
