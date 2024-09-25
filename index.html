@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="dialog.css" />
+    <link rel="stylesheet" href="css/footer.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -23,9 +24,9 @@
     <nav class="navbar">
       <img class="logo" src="pics/logo.png" alt="pizzeria populo logo" />
       <ul class="top-menu">
-        <li><a href="">HOME</a></li>
+        <li><a href="">ETUSIVU</a></li>
         <li><a href="">MENU</a></li>
-        <li><a href="">CONTACT</a></li>
+        <li><a href="">YHTEYSTIEDOT</a></li>
         <i class="fa-solid fa-right-to-bracket sign"></i>
       </ul>
 
@@ -56,7 +57,7 @@
 
     <!-- DIALOGI -->
     <dialog>
-      <p>REKISTERÖIDY</p>
+      <p>REKISTERÖIDY PIZZANPAISTAJAKSI</p>
       <!-- FORMI !   -->
       <form method="dialog">
         <div class="form">
@@ -106,6 +107,18 @@
     -->
 
     <main>
+      <section id="hello-hidden">
+        <div id="hello-box main">
+          <h1>CIAO BELLA!</h1>
+          <p>
+            Tervetuloa nauttimaan aidosta napolilaisesta pizzasta, jossa
+            perinteet ja tuoreet raaka-aineet kohtaavat. Olitpa klassisen
+            Margheritan ystävä tai etsit jotain uutta, meiltä löydät aina
+            herkullista syötävää -
+            <span class="fancy">Buon Appetito!</span>
+          </p>
+        </div>
+      </section>
       <section class="menu-container">
         <h3>VAIHTOEHDOT</h3>
         <h2>Valitse näistä</h2>
@@ -116,6 +129,50 @@
           <button class="option-btn">SPECIAL</button>
         </div>
       </section>
+
+      <section id="lista">
+        <div class="grid-container">
+          <div class="pizza-choice">
+            <h2>MARGHERITA</h2>
+            <p>Tomaattikastike, mozzarella, basilika, oliiviöljy</p>
+            <p class="hinta">12,90 €</p>
+          </div>
+          <div class="pizza-choice">
+            <h2>BUFFALINA</h2>
+            <p>Tomaattikastike, buffalon mozzarellaa, basilika, oliiviöljy</p>
+            <p class="hinta">14,90 €</p>
+          </div>
+          <div class="pizza-choice">
+            <h2>DIAVOLA</h2>
+            <p>Tomaattikastike, mozzarellaa, salamia, tulista n'duja-tahnaa</p>
+            <p class="hinta">15,90 €</p>
+          </div>
+          <div class="pizza-choice">
+            <h2>SALAMI FRESCO</h2>
+            <p>
+              Tomaattikastike, mozzarellaa, salamia, karamellisoituja
+              jalapenoja, rukolaa ja sitrusvinaigrettea
+            </p>
+            <p class="hinta">16,90 €</p>
+          </div>
+          <div class="pizza-choice">
+            <h2>FUNGI</h2>
+            <p>
+              Vaaleakastike, marinoituja herkkusieniä, karamellisoituja
+              sipuleita ja rukolaa
+            </p>
+            <p class="hinta">13,90 €</p>
+          </div>
+          <div class="pizza-choice">
+            <h2>BIANCA VERDE</h2>
+            <p>
+              Vaaleakastike, mozzarella, kirsikkatomaatteja, paahdettua
+              kesäkurpitsaa, kapriksia ja valkosipulia
+            </p>
+            <p class="hinta">14,90 €</p>
+          </div>
+        </div>
+      </section>
     </main>
 
     <!-- ABOUT US START  -->
@@ -123,16 +180,17 @@
       <img class="pizza" src="pics/pizza.png" alt="pizza" />
       <img class="basil" src="pics/basil.png" alt="basil" />
 
-      <h3>ABOUT US</h3>
-      <h2>Our Story</h2>
+      <h3>LISÄÄ MEISTÄ</h3>
+      <h2>Meidän Tarina</h2>
       <p class="about-text">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
-        accusamus quaerat totam incidunt recusandae. Laudantium quia sint nobis
-        nisi harum amet, officia nam, quae suscipit quod consectetur dicta
-        quidem accusamus! Ea recusandae asperiores tempora ab accusantium qui
-        distinctio voluptatibus dignissimos, eligendi, debitis ipsam nihil
-        consequuntur sed ducimus molestiae. Placeat magni veritatis nihil dicta
-        inventore ea est ex voluptates fuga deserunt.🍕&#127829;
+        Meidän tarinamme alkoi rakkaudesta aitoon napolilaiseen pizzaan ja
+        halusta tuoda sen perinteet lähelle sinua. Käytämme vain parhaimpia
+        raaka-aineita ja kunnioitamme pizzanteon vuosisataisia menetelmiä.
+        Jokainen taikina kohoaa ajan kanssa, ja pizzamme paistetaan kuumassa
+        kiviuunissa – juuri kuten Napolissa on tehty jo sukupolvien ajan. Meille
+        pizza on enemmän kuin ruokaa, se on tapa jakaa iloa ja luoda
+        unohtumattomia hetkiä. Tule kokemaan palanen Italiaa ja koe, miten
+        intohimolla tehty pizza maistuu! 🍕&#127829;
       </p>
     </div>
     <!-- ABOUT US END -->

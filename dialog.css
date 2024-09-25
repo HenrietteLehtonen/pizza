@@ -10,9 +10,9 @@ dialog {
   box-shadow: 1px 1px 15px rgb(16, 16, 16);
 }
 dialog > p {
-  font-size: 60px;
+  font-size: 3em;
   color: var(--black);
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 dialog::backdrop {
@@ -25,7 +25,7 @@ dialog::backdrop {
 /* FORMI */
 
 .form {
-  margin: 10px;
+  margin: 20px 10px;
 }
 
 form input:required {
@@ -39,40 +39,56 @@ form input:valid {
 form input:invalid {
   border-left-color: var(--red);
 }
+label {
+  font-size: 1.5em;
+  color: rgb(69, 67, 68);
+}
 
 input {
   margin: 5px 0px;
   padding-left: 5px;
   display: block;
   width: 180px;
-  height: 30px;
+  height: 40px;
   border-radius: 5px;
   border-style: none;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
   color: var(--black);
 }
 
 ::placeholder {
   color: var(--green);
+  font-size: 1.5em;
 }
 
 input:focus {
   /*border: 3px solid var(--red);*/
   outline: none;
 }
-input[type="submit"] {
+
+input[type="submit"],
+.close-btn {
   width: 100px;
+  height: 50px;
   float: left;
   background-color: var(--green);
+  font-size: 1.2em;
+  background-color: #ffffff;
+  border: 3px solid var(--green);
+  border-radius: 8px;
+  transition-duration: 0.3s;
 }
+input[type="submit"] {
+  margin-right: 10px;
+}
+
 .close-btn {
-  margin: 5px 0px 5px 10px;
-  width: 100px;
-  height: 30px;
-  border-radius: 5px;
-  border-style: none;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  float: left;
+  margin-top: 5px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+}
+#submit-btn:hover,
+.close-btn:hover {
+  color: var(--light);
   background-color: var(--green);
 }
 
