@@ -13,7 +13,7 @@
   font-family: "Barlow Bold";
   font-style: regular;
   src: local("Barlow Bold"),
-    url(./fonts/BarlowCondensed-Bold.woff) format("woff");
+    url(./fonts/BarlowCondensed-SemiBold.woff) format("woff");
 }
 
 * {
