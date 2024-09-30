@@ -10,10 +10,9 @@
   src: local("Barlow"), url(./fonts/BarlowCondensed-Regular.woff) format("woff");
 }
 @font-face {
-  font-family: "Barlow Bold";
-  font-style: regular;
-  src: local("Barlow Bold"),
-    url(./fonts/BarlowCondensed-SemiBold.woff) format("woff");
+  font-family: "Bold";
+  font-style: bold;
+  src: local("Bold"), url(./fonts/BarlowCondensed-SemiBold.woff) format("woff");
 }
 
 * {
@@ -225,7 +224,7 @@ main {
   box-shadow: 2px 2px 5px rgb(179, 175, 175);
 }
 .pizza-choice h2 {
-  font-family: "Barlow Bold";
+  font-family: "Bold";
   font-size: 1.6em;
 }
 .pizza-choice p {
