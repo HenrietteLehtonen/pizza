@@ -4,12 +4,23 @@
   src: local("Caveat Brush"),
     url(./fonts/CaveatBrush-Regular.woff) format("woff");
 }
+@font-face {
+  font-family: "Barlow";
+  font-style: regular;
+  src: local("Barlow"), url(./fonts/BarlowCondensed-Regular.woff) format("woff");
+}
+@font-face {
+  font-family: "Barlow Bold";
+  font-style: regular;
+  src: local("Barlow Bold"),
+    url(./fonts/BarlowCondensed-Bold.woff) format("woff");
+}
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Barlow Condensed", sans-serif;
+  font-family: "Barlow", sans-serif;
   font-style: normal;
 }
 
@@ -156,6 +167,7 @@ h1 {
 /* ---------- MAIN START ----------- */
 
 /*lopetetaan bodyn scrollaus, kun dialogi on auki*/
+
 body:has(dialog[open]) {
   overflow: hidden;
 }
@@ -213,6 +225,7 @@ main {
   box-shadow: 2px 2px 5px rgb(179, 175, 175);
 }
 .pizza-choice h2 {
+  font-family: "Barlow Bold";
   font-size: 1.6em;
 }
 .pizza-choice p {
